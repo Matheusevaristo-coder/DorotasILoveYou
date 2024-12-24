@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa de Natal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Para a pessoa mais especial do mundo neste Natal...</h1>
+        <div id="handwritten-message">
+            <p>
+                Querida Dorotas,
+                <br><br>
+                Nosso primeiro Natal juntos é um sonho realizado. Quando penso em Natal, penso em todas as pequenas alegrias que compartilhamos juntos. Cada sorriso seu ilumina meu mundo de uma forma que nada mais consegue. Seu riso é minha melodia favorita, e sua presença, meu presente mais precioso.
+                <br><br>
+                Neste Natal, só tenho uma certeza: ter você ao meu lado transforma cada momento em uma lembrança mágica. A cada abraço, sinto-me mais forte; a cada olhar, mais apaixonado. Você é minha estrela guia, meu refúgio e minha maior felicidade.
+                <br><br>
+                Que este Natal seja repleto de amor, paz e momentos inesquecíveis ao seu lado. Te amo hoje e sempre, com todo meu coração. ❤️
+                <br><br>
+                Assinado, seu Nego.
+            </p>
+        </div>
+
+        <!-- Galeria de fotos -->
+        <div id="photos">
+            <img src="img/imagem1.jpeg" alt="Foto 1">
+            <img src="img/imagem2.jpeg" alt="Foto 2">
+            <img src="img/imagem3.jpeg" alt="Foto 3">
+        </div>
+
+        <!-- Botão para tocar música -->
+        <button id="play-music" onclick="playMusic()">Clique aqui para ouvir nossa música</button>
+        <div id="youtube-player">
+            <iframe id="player" width="560" height="315" 
+                src="" 
+                title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Contagem regressiva para o Natal -->
+        <div id="countdown">
+            Faltam <span id="days">0</span> dias, <span id="hours">0</span> horas, <span id="minutes">0</span> minutos e <span id="seconds">0</span> segundos para o Natal!
+        </div>
+
+        <!-- Efeito de neve -->
+        <div class="snowflake">❄️</div>
+        <div class="snowflake">❄️</div>
+        <div class="snowflake">❄️</div>
+        <div class="snowflake">❄️</div>
+        <div class="snowflake">❄️</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
